@@ -1,0 +1,24 @@
+<!-- 참조링크
+ https://ko.javascript.info/script-async-defer 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="main.js"></script>
+
+		<!-- Fetch, Execute 비동기 -->
+		<script async src="main.js"></script>
+
+		<!-- Fetch 비동기, Execute 렌더링 후 진행 -->
+		<script defer src="main.js"></script>
+
+		<!-- QUESTION. async, defer 차이는 무엇인가요? -->
+	</head>
+	<body>
+		<!-- Fetch, Execute 동기 -->
+		<script src="main.js"></script>
+	</body>
+</html>
