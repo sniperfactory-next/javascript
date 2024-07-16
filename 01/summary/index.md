@@ -66,7 +66,7 @@ settings.json 파일에 다음 설정을 추가합니다.
 
 ![터미널에서 node 명령어로 실행하기](./images/01.png)
 
-#### VSCode의 실행 버튼으로 실행하기
+#### VSCode의 실행 버튼으로 실행하기 (Code Runner 익스텐션)
 
 ![VSCode의 실행 버튼으로 실행하기](./images/02.png)
 
